@@ -1,0 +1,5 @@
+                                            Passenger Name,PNR,Route,Class,Ticket#,Date of Issue Local,Flt#,Flight Date,Status,Face-Value,B9,LY,WV,YQ,YR,Total Tax,Comm. Paid,Comm.,Net Fare,W/Tax,Agent ID,Manual TKT No,Running Credit Value (EUR)
+Currency EUR,,,,,,,,,,,,,,,,,,,,,,,,
+AHMED/OMARMR,AANY4I,MJI-MLA,Y,532 2300503097/1,03/07/2025 12:32:21,BM0311,27/07/2025,ETKT,126.47,0.67,0.33,3,47,47.53,98.53,0,8.85,216.15,0,7833MA,,1533.85,
+AHMED/OMARMR,AANY4I,MJI-MLA,Y,532 2300503097/1,24/07/2025 12:35:34,BM0311,27/07/2025,VOID,-126.47,-0.67,-0.33,-3,-47,-47.53,-98.53,0,-8.85,-216.15,0,1276OA,,1750.00,
+TOTALS for EUR,,,,,,,,,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,,,,Refund Total,216.15,,,,

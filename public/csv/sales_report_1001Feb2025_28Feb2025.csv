@@ -1,0 +1,5 @@
+                                            Passenger Name,PNR,Route,Class,Ticket#,Date of Issue Local,Flt#,Flight Date,Status,Face-Value,B9,CM,GX,LY,M6,S4,TR,WV,YQ,YR,Total Tax,Comm. Paid,Comm.,Net Fare,W/Tax,Agent ID,Manual TKT No,Running Credit Value (LYD)
+Currency LYD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DAKHIL/AKRAAMMR,ABGT9C,IST-BEN,B,215 2301439409/1,10/02/2025 10:42:33,NB0302,10/02/2025,ETKT,979.25,0,136.49,54,0,15.8,19.49,159.98,0,0,0,385.76,0,97.93,1267.08,0,1627BN,,7283.17,
+DAKHIL/AKRAAMMR,ABGT9C,BEN-IST,Y,215 2301439409/2,10/02/2025 10:42:33,NB0000,15/02/2025,ETKT,290.52,3.51,117,108,0.99,0,0,0,14.99,180,90,514.49,0,29.05,775.96,0,1627BN,,6507.21,
+TOTALS for LYD,,,,,,,,,1269.77,3.51,253.49,162.00,0.99,15.80,19.49,159.98,14.99,180.00,90.00,900.25,0.00,126.98,2043.04,0.00,2043.04,,,,,,,,,,,,,,,,,,,,,,,,,,Refund Total,0.00,,,,

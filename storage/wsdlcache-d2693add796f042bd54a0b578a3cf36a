@@ -1,0 +1,392 @@
+O:4:"wsdl":52:{s:5:"title";s:6:"NuSOAP";s:7:"version";s:6:"0.9.17";s:8:"revision";s:18:"$Revision: 1.123 $";s:9:"error_str";s:0:"";s:9:"debug_str";s:13828:"2024-06-01 22:04:55.272795 wsdl: ctor wsdl=https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL timeout=0 response_timeout=30
+2024-06-01 22:04:55.282979 wsdl: parse and process WSDL path=https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2024-06-01 22:04:55.282995 wsdl: parse WSDL at path=https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2024-06-01 22:04:55.283012 wsdl: getting WSDL http(s) URL https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2024-06-01 22:04:55.283034 soap_transport_http: ctor url=https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL use_curl= curl_options:
+array(0) {
+}
+2024-06-01 22:04:55.283074 soap_transport_http: parsed URL scheme = https
+2024-06-01 22:04:55.283087 soap_transport_http: parsed URL host = customer3.videcom.com
+2024-06-01 22:04:55.283099 soap_transport_http: parsed URL path = /Medsky/VRSXMLService/VRSXMLWebservice3.asmx
+2024-06-01 22:04:55.283109 soap_transport_http: parsed URL query = WSDL
+2024-06-01 22:04:55.283137 soap_transport_http: set header Host: customer3.videcom.com
+2024-06-01 22:04:55.283227 soap_transport_http: set header User-Agent: NuSOAP/0.9.17 (1.123)
+2024-06-01 22:04:55.283247 soap_transport_http: set header Accept-Encoding: gzip, deflate
+2024-06-01 22:04:55.283259 soap_transport_http: set header Connection: close
+2024-06-01 22:04:55.283271 soap_transport_http: entered send() with data of length: 0
+2024-06-01 22:04:55.283289 soap_transport_http: connect connection_timeout 0, response_timeout 30, scheme https, host customer3.videcom.com, port 443
+2024-06-01 22:04:55.283304 soap_transport_http: connect using cURL
+2024-06-01 22:04:55.283467 soap_transport_http: setCurlOption option=10002, value=
+string(82) "https://customer3.videcom.com:443/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL"
+2024-06-01 22:04:55.283496 soap_transport_http: setCurlOption option=52, value=
+int(1)
+2024-06-01 22:04:55.283512 soap_transport_http: setCurlOption option=42, value=
+int(1)
+2024-06-01 22:04:55.283527 soap_transport_http: setCurlOption option=19913, value=
+int(1)
+2024-06-01 22:04:55.283541 soap_transport_http: setCurlOption option=13, value=
+int(30)
+2024-06-01 22:04:55.283554 soap_transport_http: set cURL SSL verify options
+2024-06-01 22:04:55.283564 soap_transport_http: setCurlOption option=64, value=
+int(0)
+2024-06-01 22:04:55.283577 soap_transport_http: setCurlOption option=81, value=
+int(0)
+2024-06-01 22:04:55.283592 soap_transport_http: cURL connection set up
+2024-06-01 22:04:55.283612 soap_transport_http: HTTP request: GET /Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL HTTP/1.1
+2024-06-01 22:04:55.283625 soap_transport_http: HTTP header: Host: customer3.videcom.com
+2024-06-01 22:04:55.283636 soap_transport_http: HTTP header: User-Agent: NuSOAP/0.9.17 (1.123)
+2024-06-01 22:04:55.283646 soap_transport_http: HTTP header: Accept-Encoding: gzip, deflate
+2024-06-01 22:04:55.283656 soap_transport_http: HTTP header: Connection: close
+2024-06-01 22:04:55.283669 soap_transport_http: Skip cURL header Host: customer3.videcom.com
+2024-06-01 22:04:55.283681 soap_transport_http: Skip cURL header Connection: close
+2024-06-01 22:04:55.283691 soap_transport_http: setCurlOption option=10023, value=
+array(2) {
+  [0]=>
+  string(33) "User-Agent: NuSOAP/0.9.17 (1.123)"
+  [1]=>
+  string(30) "Accept-Encoding: gzip, deflate"
+}
+2024-06-01 22:04:55.283711 soap_transport_http: set cURL HTTP headers
+2024-06-01 22:04:55.283722 soap_transport_http: set cURL payload
+2024-06-01 22:04:55.283741 soap_transport_http: send and receive with cURL
+2024-06-01 22:04:55.826171 soap_transport_http: No cURL error, closing cURL
+2024-06-01 22:04:55.826227 soap_transport_http: found proper separation of headers and document
+2024-06-01 22:04:55.826241 soap_transport_http: cleaned data, stringlen: 1793
+2024-06-01 22:04:55.826281 soap_transport_http: The gzinflate function exists
+2024-06-01 22:04:55.826371 soap_transport_http: The payload has been un-gzipped to 9212 bytes
+2024-06-01 22:04:55.826392 soap_transport_http: end of send()
+2024-06-01 22:04:55.827416 wsdl: got WSDL URL
+2024-06-01 22:04:55.827437 wsdl: Parse WSDL
+2024-06-01 22:04:55.832060 wsdl: Parsing WSDL schema
+2024-06-01 22:04:55.832090 nusoap_xmlschema: nusoap_xmlschema class instantiated, inside constructor
+2024-06-01 22:04:55.832172 nusoap_xmlschema: <http://videcom.com/> processing typed element msg of type http://videcom.com/:VrsXmlRequest
+2024-06-01 22:04:55.832193 nusoap_xmlschema: <http://videcom.com/> add element msg to elements array
+2024-06-01 22:04:55.832229 nusoap_xmlschema: <http://videcom.com/> done processing element msg
+2024-06-01 22:04:55.832265 nusoap_xmlschema: <http://videcom.com/> processing named complexType VrsXmlRequest
+2024-06-01 22:04:55.832326 nusoap_xmlschema: <http://videcom.com/> processing typed element Token of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832346 nusoap_xmlschema: <http://videcom.com/> add element Token to complexType VrsXmlRequest
+2024-06-01 22:04:55.832369 nusoap_xmlschema: <http://videcom.com/> done processing element Token
+2024-06-01 22:04:55.832409 nusoap_xmlschema: <http://videcom.com/> processing typed element Command of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832427 nusoap_xmlschema: <http://videcom.com/> add element Command to complexType VrsXmlRequest
+2024-06-01 22:04:55.832449 nusoap_xmlschema: <http://videcom.com/> done processing element Command
+2024-06-01 22:04:55.832480 nusoap_xmlschema: <http://videcom.com/> done processing complexType VrsXmlRequest
+2024-06-01 22:04:55.832525 nusoap_xmlschema: <http://videcom.com/> array(6) {
+  ["name"]=>
+  string(13) "VrsXmlRequest"
+  ["typeClass"]=>
+  string(11) "complexType"
+  ["phpType"]=>
+  string(6) "struct"
+  ["simpleContent"]=>
+  string(5) "false"
+  ["compositor"]=>
+  string(8) "sequence"
+  ["elements"]=>
+  array(2) {
+    ["Token"]=>
+    array(5) {
+      ["minOccurs"]=>
+      string(1) "0"
+      ["maxOccurs"]=>
+      string(1) "1"
+      ["name"]=>
+      string(5) "Token"
+      ["type"]=>
+      string(39) "http://www.w3.org/2001/XMLSchema:string"
+      ["form"]=>
+      string(9) "qualified"
+    }
+    ["Command"]=>
+    array(5) {
+      ["minOccurs"]=>
+      string(1) "0"
+      ["maxOccurs"]=>
+      string(1) "1"
+      ["name"]=>
+      string(7) "Command"
+      ["type"]=>
+      string(39) "http://www.w3.org/2001/XMLSchema:string"
+      ["form"]=>
+      string(9) "qualified"
+    }
+  }
+}
+
+2024-06-01 22:04:55.832564 nusoap_xmlschema: <http://videcom.com/> processing typed element RunVRSCommandResult of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832581 nusoap_xmlschema: <http://videcom.com/> add element RunVRSCommandResult to elements array
+2024-06-01 22:04:55.832604 nusoap_xmlschema: <http://videcom.com/> done processing element RunVRSCommandResult
+2024-06-01 22:04:55.832640 nusoap_xmlschema: <http://videcom.com/> processing typed element Command of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832657 nusoap_xmlschema: <http://videcom.com/> add element Command to elements array
+2024-06-01 22:04:55.832679 nusoap_xmlschema: <http://videcom.com/> done processing element Command
+2024-06-01 22:04:55.832714 nusoap_xmlschema: <http://videcom.com/> processing typed element Token of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832731 nusoap_xmlschema: <http://videcom.com/> add element Token to elements array
+2024-06-01 22:04:55.832753 nusoap_xmlschema: <http://videcom.com/> done processing element Token
+2024-06-01 22:04:55.832789 nusoap_xmlschema: <http://videcom.com/> processing typed element PostVRSCommandResult of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832805 nusoap_xmlschema: <http://videcom.com/> add element PostVRSCommandResult to elements array
+2024-06-01 22:04:55.832826 nusoap_xmlschema: <http://videcom.com/> done processing element PostVRSCommandResult
+2024-06-01 22:04:55.832862 nusoap_xmlschema: <http://videcom.com/> processing typed element PostApisDataResult of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832878 nusoap_xmlschema: <http://videcom.com/> add element PostApisDataResult to elements array
+2024-06-01 22:04:55.832931 nusoap_xmlschema: <http://videcom.com/> done processing element PostApisDataResult
+2024-06-01 22:04:55.832974 nusoap_xmlschema: <http://videcom.com/> processing typed element string of type http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.832991 nusoap_xmlschema: <http://videcom.com/> add element string to elements array
+2024-06-01 22:04:55.833013 nusoap_xmlschema: <http://videcom.com/> done processing element string
+2024-06-01 22:04:55.833039 wsdl: Parsing WSDL schema done
+2024-06-01 22:04:55.833098 wsdl: msg RunVRSCommandSoapIn: found part (with element) msg: msg,http://videcom.com/:msg
+2024-06-01 22:04:55.833156 wsdl: msg RunVRSCommandSoapOut: found part (with element) RunVRSCommandResult: RunVRSCommandResult,http://videcom.com/:RunVRSCommandResult
+2024-06-01 22:04:55.833213 wsdl: msg PostVRSCommandSoapIn: found part (with element) Command: Command,http://videcom.com/:Command
+2024-06-01 22:04:55.833252 wsdl: msg PostVRSCommandSoapIn: found part (with element) Token: Token,http://videcom.com/:Token
+2024-06-01 22:04:55.833308 wsdl: msg PostVRSCommandSoapOut: found part (with element) PostVRSCommandResult: PostVRSCommandResult,http://videcom.com/:PostVRSCommandResult
+2024-06-01 22:04:55.833377 wsdl: msg PostApisDataSoapOut: found part (with element) PostApisDataResult: PostApisDataResult,http://videcom.com/:PostApisDataResult
+2024-06-01 22:04:55.833437 wsdl: msg PostVRSCommandHttpGetIn: found part (with type) Command: Command,http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.833477 wsdl: msg PostVRSCommandHttpGetIn: found part (with type) Token: Token,http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.833531 wsdl: msg PostVRSCommandHttpGetOut: found part (with element) Body: Body,http://videcom.com/:string
+2024-06-01 22:04:55.833600 wsdl: msg PostApisDataHttpGetOut: found part (with element) Body: Body,http://videcom.com/:string
+2024-06-01 22:04:55.833655 wsdl: msg PostVRSCommandHttpPostIn: found part (with type) Command: Command,http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.833693 wsdl: msg PostVRSCommandHttpPostIn: found part (with type) Token: Token,http://www.w3.org/2001/XMLSchema:string
+2024-06-01 22:04:55.833747 wsdl: msg PostVRSCommandHttpPostOut: found part (with element) Body: Body,http://videcom.com/:string
+2024-06-01 22:04:55.833815 wsdl: msg PostApisDataHttpPostOut: found part (with element) Body: Body,http://videcom.com/:string
+2024-06-01 22:04:55.833867 wsdl: portType VrsXmlWebService3Soap operation: RunVRSCommand
+2024-06-01 22:04:55.833945 wsdl: portType VrsXmlWebService3Soap operation: PostVRSCommand
+2024-06-01 22:04:55.834018 wsdl: portType VrsXmlWebService3Soap operation: PostApisData
+2024-06-01 22:04:55.834109 wsdl: portType VrsXmlWebService3HttpGet operation: PostVRSCommand
+2024-06-01 22:04:55.834182 wsdl: portType VrsXmlWebService3HttpGet operation: PostApisData
+2024-06-01 22:04:55.834272 wsdl: portType VrsXmlWebService3HttpPost operation: PostVRSCommand
+2024-06-01 22:04:55.834352 wsdl: portType VrsXmlWebService3HttpPost operation: PostApisData
+2024-06-01 22:04:55.834441 wsdl: current binding: VrsXmlWebService3Soap of portType: http://videcom.com/:VrsXmlWebService3Soap
+2024-06-01 22:04:55.834494 wsdl: current binding operation: RunVRSCommand
+2024-06-01 22:04:55.834608 wsdl: current binding operation: PostVRSCommand
+2024-06-01 22:04:55.834715 wsdl: current binding operation: PostApisData
+2024-06-01 22:04:55.834835 wsdl: current binding: VrsXmlWebService3Soap12 of portType: http://videcom.com/:VrsXmlWebService3Soap
+2024-06-01 22:04:55.834885 wsdl: current binding operation: RunVRSCommand
+2024-06-01 22:04:55.834991 wsdl: current binding operation: PostVRSCommand
+2024-06-01 22:04:55.835117 wsdl: current binding operation: PostApisData
+2024-06-01 22:04:55.835248 wsdl: current binding: VrsXmlWebService3HttpGet of portType: http://videcom.com/:VrsXmlWebService3HttpGet
+2024-06-01 22:04:55.835295 wsdl: current binding operation: PostVRSCommand
+2024-06-01 22:04:55.835394 wsdl: current binding operation: PostApisData
+2024-06-01 22:04:55.835504 wsdl: current binding: VrsXmlWebService3HttpPost of portType: http://videcom.com/:VrsXmlWebService3HttpPost
+2024-06-01 22:04:55.835551 wsdl: current binding operation: PostVRSCommand
+2024-06-01 22:04:55.835649 wsdl: current binding operation: PostApisData
+2024-06-01 22:04:55.835751 wsdl: current service: VrsXmlWebService3
+2024-06-01 22:04:55.835788 wsdl: current port: VrsXmlWebService3Soap
+2024-06-01 22:04:55.835849 wsdl: current port: VrsXmlWebService3Soap12
+2024-06-01 22:04:55.835908 wsdl: current port: VrsXmlWebService3HttpGet
+2024-06-01 22:04:55.835968 wsdl: current port: VrsXmlWebService3HttpPost
+2024-06-01 22:04:55.836026 wsdl: Parsing WSDL done
+2024-06-01 22:04:55.836056 wsdl: post-parse data gathering for RunVRSCommand
+2024-06-01 22:04:55.836088 wsdl: post-parse data gathering for PostVRSCommand
+2024-06-01 22:04:55.836112 wsdl: post-parse data gathering for PostApisData
+2024-06-01 22:04:55.836135 wsdl: post-parse data gathering for RunVRSCommand
+2024-06-01 22:04:55.836157 wsdl: post-parse data gathering for PostVRSCommand
+2024-06-01 22:04:55.836179 wsdl: post-parse data gathering for PostApisData
+2024-06-01 22:04:55.836201 wsdl: post-parse data gathering for PostVRSCommand
+2024-06-01 22:04:55.836222 wsdl: post-parse data gathering for PostApisData
+2024-06-01 22:04:55.836243 wsdl: post-parse data gathering for PostVRSCommand
+2024-06-01 22:04:55.836264 wsdl: post-parse data gathering for PostApisData
+";s:12:"charencoding";b:1;s:10:"debugLevel";i:9;s:16:"XMLSchemaVersion";s:32:"http://www.w3.org/2001/XMLSchema";s:16:"soap_defencoding";s:10:"ISO-8859-1";s:10:"namespaces";a:13:{s:8:"SOAP-ENV";s:41:"http://schemas.xmlsoap.org/soap/envelope/";s:3:"xsd";s:32:"http://www.w3.org/2001/XMLSchema";s:3:"xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:8:"SOAP-ENC";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:1:"s";s:32:"http://www.w3.org/2001/XMLSchema";s:6:"soap12";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";s:4:"http";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:4:"mime";s:37:"http://schemas.xmlsoap.org/wsdl/mime/";s:3:"tns";s:19:"http://videcom.com/";s:4:"soap";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";s:2:"tm";s:44:"http://microsoft.com/wsdl/mime/textMatching/";s:7:"soapenc";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:4:"wsdl";s:32:"http://schemas.xmlsoap.org/wsdl/";}s:14:"usedNamespaces";a:0:{}s:7:"typemap";a:6:{s:32:"http://www.w3.org/2001/XMLSchema";a:43:{s:6:"string";s:6:"string";s:7:"boolean";s:7:"boolean";s:5:"float";s:6:"double";s:6:"double";s:6:"double";s:7:"decimal";s:6:"double";s:8:"duration";s:0:"";s:8:"dateTime";s:6:"string";s:4:"time";s:6:"string";s:4:"date";s:6:"string";s:10:"gYearMonth";s:0:"";s:5:"gYear";s:0:"";s:9:"gMonthDay";s:0:"";s:4:"gDay";s:0:"";s:6:"gMonth";s:0:"";s:9:"hexBinary";s:6:"string";s:12:"base64Binary";s:6:"string";s:7:"anyType";s:6:"string";s:13:"anySimpleType";s:6:"string";s:16:"normalizedString";s:6:"string";s:5:"token";s:6:"string";s:8:"language";s:0:"";s:7:"NMTOKEN";s:0:"";s:8:"NMTOKENS";s:0:"";s:4:"Name";s:0:"";s:6:"NCName";s:0:"";s:2:"ID";s:0:"";s:5:"IDREF";s:0:"";s:6:"IDREFS";s:0:"";s:6:"ENTITY";s:0:"";s:8:"ENTITIES";s:0:"";s:7:"integer";s:7:"integer";s:18:"nonPositiveInteger";s:7:"integer";s:15:"negativeInteger";s:7:"integer";s:4:"long";s:7:"integer";s:3:"int";s:7:"integer";s:5:"short";s:7:"integer";s:4:"byte";s:7:"integer";s:18:"nonNegativeInteger";s:7:"integer";s:12:"unsignedLong";s:0:"";s:11:"unsignedInt";s:0:"";s:13:"unsignedShort";s:0:"";s:12:"unsignedByte";s:0:"";s:15:"positiveInteger";s:0:"";}s:35:"http://www.w3.org/2000/10/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:32:"http://www.w3.org/1999/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:26:"http://soapinterop.org/xsd";a:1:{s:10:"SOAPStruct";s:6:"struct";}s:41:"http://schemas.xmlsoap.org/soap/encoding/";a:3:{s:6:"base64";s:6:"string";s:5:"array";s:5:"array";s:5:"Array";s:5:"array";}s:30:"http://xml.apache.org/xml-soap";a:1:{i:0;s:3:"Map";}}s:11:"xmlEntities";a:5:{s:4:"quot";s:1:""";s:3:"amp";s:1:"&";s:2:"lt";s:1:"<";s:2:"gt";s:1:">";s:4:"apos";s:1:"'";}s:11:"contentType";s:8:"text/xml";s:4:"wsdl";s:78:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx?WSDL";s:7:"schemas";a:1:{s:19:"http://videcom.com/";a:1:{i:0;O:16:"nusoap_xmlschema":36:{s:5:"title";s:6:"NuSOAP";s:7:"version";s:6:"0.9.17";s:8:"revision";s:18:"$Revision: 1.123 $";s:9:"error_str";s:0:"";s:9:"debug_str";s:0:"";s:12:"charencoding";b:1;s:10:"debugLevel";i:9;s:16:"XMLSchemaVersion";s:32:"http://www.w3.org/2001/XMLSchema";s:16:"soap_defencoding";s:10:"ISO-8859-1";s:10:"namespaces";a:13:{s:8:"SOAP-ENV";s:41:"http://schemas.xmlsoap.org/soap/envelope/";s:3:"xsd";s:32:"http://www.w3.org/2001/XMLSchema";s:3:"xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:8:"SOAP-ENC";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:1:"s";s:32:"http://www.w3.org/2001/XMLSchema";s:6:"soap12";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";s:4:"http";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:4:"mime";s:37:"http://schemas.xmlsoap.org/wsdl/mime/";s:3:"tns";s:19:"http://videcom.com/";s:4:"soap";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";s:2:"tm";s:44:"http://microsoft.com/wsdl/mime/textMatching/";s:7:"soapenc";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:4:"wsdl";s:32:"http://schemas.xmlsoap.org/wsdl/";}s:14:"usedNamespaces";a:0:{}s:7:"typemap";a:6:{s:32:"http://www.w3.org/2001/XMLSchema";a:43:{s:6:"string";s:6:"string";s:7:"boolean";s:7:"boolean";s:5:"float";s:6:"double";s:6:"double";s:6:"double";s:7:"decimal";s:6:"double";s:8:"duration";s:0:"";s:8:"dateTime";s:6:"string";s:4:"time";s:6:"string";s:4:"date";s:6:"string";s:10:"gYearMonth";s:0:"";s:5:"gYear";s:0:"";s:9:"gMonthDay";s:0:"";s:4:"gDay";s:0:"";s:6:"gMonth";s:0:"";s:9:"hexBinary";s:6:"string";s:12:"base64Binary";s:6:"string";s:7:"anyType";s:6:"string";s:13:"anySimpleType";s:6:"string";s:16:"normalizedString";s:6:"string";s:5:"token";s:6:"string";s:8:"language";s:0:"";s:7:"NMTOKEN";s:0:"";s:8:"NMTOKENS";s:0:"";s:4:"Name";s:0:"";s:6:"NCName";s:0:"";s:2:"ID";s:0:"";s:5:"IDREF";s:0:"";s:6:"IDREFS";s:0:"";s:6:"ENTITY";s:0:"";s:8:"ENTITIES";s:0:"";s:7:"integer";s:7:"integer";s:18:"nonPositiveInteger";s:7:"integer";s:15:"negativeInteger";s:7:"integer";s:4:"long";s:7:"integer";s:3:"int";s:7:"integer";s:5:"short";s:7:"integer";s:4:"byte";s:7:"integer";s:18:"nonNegativeInteger";s:7:"integer";s:12:"unsignedLong";s:0:"";s:11:"unsignedInt";s:0:"";s:13:"unsignedShort";s:0:"";s:12:"unsignedByte";s:0:"";s:15:"positiveInteger";s:0:"";}s:35:"http://www.w3.org/2000/10/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:32:"http://www.w3.org/1999/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:26:"http://soapinterop.org/xsd";a:1:{s:10:"SOAPStruct";s:6:"struct";}s:41:"http://schemas.xmlsoap.org/soap/encoding/";a:3:{s:6:"base64";s:6:"string";s:5:"array";s:5:"array";s:5:"Array";s:5:"array";}s:30:"http://xml.apache.org/xml-soap";a:1:{i:0;s:3:"Map";}}s:11:"xmlEntities";a:5:{s:4:"quot";s:1:""";s:3:"amp";s:1:"&";s:2:"lt";s:1:"<";s:2:"gt";s:1:">";s:4:"apos";s:1:"'";}s:11:"contentType";s:8:"text/xml";s:6:"schema";s:0:"";s:3:"xml";s:0:"";s:19:"enclosingNamespaces";a:13:{s:8:"SOAP-ENV";s:41:"http://schemas.xmlsoap.org/soap/envelope/";s:3:"xsd";s:32:"http://www.w3.org/2001/XMLSchema";s:3:"xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:8:"SOAP-ENC";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:1:"s";s:32:"http://www.w3.org/2001/XMLSchema";s:6:"soap12";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";s:4:"http";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:4:"mime";s:37:"http://schemas.xmlsoap.org/wsdl/mime/";s:3:"tns";s:19:"http://videcom.com/";s:4:"soap";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";s:2:"tm";s:44:"http://microsoft.com/wsdl/mime/textMatching/";s:7:"soapenc";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:4:"wsdl";s:32:"http://schemas.xmlsoap.org/wsdl/";}s:10:"schemaInfo";a:4:{s:18:"elementFormDefault";s:9:"qualified";s:15:"targetNamespace";s:19:"http://videcom.com/";s:13:"schemaVersion";s:32:"http://www.w3.org/2001/XMLSchema";s:20:"attributeFormDefault";s:11:"unqualified";}s:21:"schemaTargetNamespace";s:19:"http://videcom.com/";s:10:"attributes";a:0:{}s:12:"complexTypes";a:1:{s:13:"VrsXmlRequest";a:6:{s:4:"name";s:13:"VrsXmlRequest";s:9:"typeClass";s:11:"complexType";s:7:"phpType";s:6:"struct";s:13:"simpleContent";s:5:"false";s:10:"compositor";s:8:"sequence";s:8:"elements";a:2:{s:5:"Token";a:5:{s:9:"minOccurs";s:1:"0";s:9:"maxOccurs";s:1:"1";s:4:"name";s:5:"Token";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";}s:7:"Command";a:5:{s:9:"minOccurs";s:1:"0";s:9:"maxOccurs";s:1:"1";s:4:"name";s:7:"Command";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";}}}}s:16:"complexTypeStack";a:0:{}s:18:"currentComplexType";N;s:8:"elements";a:7:{s:3:"msg";a:4:{s:4:"name";s:3:"msg";s:4:"type";s:33:"http://videcom.com/:VrsXmlRequest";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:19:"RunVRSCommandResult";a:4:{s:4:"name";s:19:"RunVRSCommandResult";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:7:"Command";a:4:{s:4:"name";s:7:"Command";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:5:"Token";a:4:{s:4:"name";s:5:"Token";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:20:"PostVRSCommandResult";a:4:{s:4:"name";s:20:"PostVRSCommandResult";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:18:"PostApisDataResult";a:4:{s:4:"name";s:18:"PostApisDataResult";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}s:6:"string";a:5:{s:4:"name";s:6:"string";s:8:"nillable";s:4:"true";s:4:"type";s:39:"http://www.w3.org/2001/XMLSchema:string";s:4:"form";s:9:"qualified";s:9:"typeClass";s:7:"element";}}s:12:"elementStack";a:0:{}s:14:"currentElement";N;s:11:"simpleTypes";a:0:{}s:15:"simpleTypeStack";a:0:{}s:17:"currentSimpleType";N;s:7:"imports";a:0:{}s:6:"parser";N;s:8:"position";i:12;s:5:"depth";i:1;s:11:"depth_array";a:4:{i:0;i:0;i:1;i:11;i:2;i:3;i:3;i:5;}s:7:"message";a:12:{i:0;a:1:{s:5:"cdata";s:0:"";}i:1;a:1:{s:5:"cdata";s:0:"";}i:2;a:1:{s:5:"cdata";s:0:"";}i:3;a:1:{s:5:"cdata";s:0:"";}i:4;a:1:{s:5:"cdata";s:0:"";}i:5;a:1:{s:5:"cdata";s:0:"";}i:6;a:1:{s:5:"cdata";s:0:"";}i:7;a:1:{s:5:"cdata";s:0:"";}i:8;a:1:{s:5:"cdata";s:0:"";}i:9;a:1:{s:5:"cdata";s:0:"";}i:10;a:1:{s:5:"cdata";s:0:"";}i:11;a:1:{s:5:"cdata";s:0:"";}}s:16:"defaultNamespace";a:12:{i:0;b:0;i:1;b:0;i:2;b:0;i:3;b:0;i:4;b:0;i:5;b:0;i:6;b:0;i:7;b:0;i:8;b:0;i:9;b:0;i:10;b:0;i:11;b:0;}}}}s:13:"currentSchema";r:113;s:7:"message";a:131:{i:0;a:1:{s:5:"cdata";s:135:"
+  
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+      
+      
+      
+      
+    
+  
+      
+        ";}i:1;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:2;a:1:{s:5:"cdata";s:3:"
+  ";}i:3;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:4;a:1:{s:5:"cdata";s:3:"
+  ";}i:5;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:6;a:1:{s:5:"cdata";s:3:"
+  ";}i:7;a:1:{s:5:"cdata";s:5:"
+    ";}i:8;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:9;a:1:{s:5:"cdata";s:3:"
+  ";}i:10;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:11;a:1:{s:5:"cdata";s:3:"
+  ";}i:12;a:1:{s:5:"cdata";s:3:"
+  ";}i:13;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:14;a:1:{s:5:"cdata";s:3:"
+  ";}i:15;a:1:{s:5:"cdata";s:5:"
+    ";}i:16;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:17;a:1:{s:5:"cdata";s:3:"
+  ";}i:18;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:19;a:1:{s:5:"cdata";s:3:"
+  ";}i:20;a:1:{s:5:"cdata";s:3:"
+  ";}i:21;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:22;a:1:{s:5:"cdata";s:3:"
+  ";}i:23;a:1:{s:5:"cdata";s:5:"
+    ";}i:24;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:25;a:1:{s:5:"cdata";s:3:"
+  ";}i:26;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:27;a:1:{s:5:"cdata";s:3:"
+  ";}i:28;a:1:{s:5:"cdata";s:3:"
+  ";}i:29;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:30;a:1:{s:5:"cdata";s:3:"
+  ";}i:31;a:1:{s:5:"cdata";s:5:"
+    ";}i:32;a:1:{s:5:"cdata";s:7:"
+      ";}i:33;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:34;a:1:{s:5:"cdata";s:5:"
+    ";}i:35;a:1:{s:5:"cdata";s:7:"
+      ";}i:36;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:37;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:38;a:1:{s:5:"cdata";s:7:"
+      ";}i:39;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:40;a:1:{s:5:"cdata";s:3:"
+  ";}i:41;a:1:{s:5:"cdata";s:5:"
+    ";}i:42;a:1:{s:5:"cdata";s:7:"
+      ";}i:43;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:44;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:45;a:1:{s:5:"cdata";s:7:"
+      ";}i:46;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:47;a:1:{s:5:"cdata";s:3:"
+  ";}i:48;a:1:{s:5:"cdata";s:5:"
+    ";}i:49;a:1:{s:5:"cdata";s:7:"
+      ";}i:50;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:51;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:52;a:1:{s:5:"cdata";s:7:"
+      ";}i:53;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:54;a:1:{s:5:"cdata";s:3:"
+  ";}i:55;a:1:{s:5:"cdata";s:5:"
+    ";}i:56;a:1:{s:5:"cdata";s:5:"
+    ";}i:57;a:1:{s:5:"cdata";s:7:"
+      ";}i:58;a:1:{s:5:"cdata";s:7:"
+      ";}i:59;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:60;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:61;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:62;a:1:{s:5:"cdata";s:5:"
+    ";}i:63;a:1:{s:5:"cdata";s:7:"
+      ";}i:64;a:1:{s:5:"cdata";s:7:"
+      ";}i:65;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:66;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:67;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:68;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:69;a:1:{s:5:"cdata";s:7:"
+      ";}i:70;a:1:{s:5:"cdata";s:7:"
+      ";}i:71;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:72;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:73;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:74;a:1:{s:5:"cdata";s:3:"
+  ";}i:75;a:1:{s:5:"cdata";s:5:"
+    ";}i:76;a:1:{s:5:"cdata";s:5:"
+    ";}i:77;a:1:{s:5:"cdata";s:7:"
+      ";}i:78;a:1:{s:5:"cdata";s:7:"
+      ";}i:79;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:80;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:81;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:82;a:1:{s:5:"cdata";s:5:"
+    ";}i:83;a:1:{s:5:"cdata";s:7:"
+      ";}i:84;a:1:{s:5:"cdata";s:7:"
+      ";}i:85;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:86;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:87;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:88;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:89;a:1:{s:5:"cdata";s:7:"
+      ";}i:90;a:1:{s:5:"cdata";s:7:"
+      ";}i:91;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:92;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:93;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:94;a:1:{s:5:"cdata";s:3:"
+  ";}i:95;a:1:{s:5:"cdata";s:5:"
+    ";}i:96;a:1:{s:5:"cdata";s:5:"
+    ";}i:97;a:1:{s:5:"cdata";s:7:"
+      ";}i:98;a:1:{s:5:"cdata";s:7:"
+      ";}i:99;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:100;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:101;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:102;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:103;a:1:{s:5:"cdata";s:7:"
+      ";}i:104;a:1:{s:5:"cdata";s:7:"
+      ";}i:105;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:106;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:107;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:108;a:1:{s:5:"cdata";s:3:"
+  ";}i:109;a:1:{s:5:"cdata";s:5:"
+    ";}i:110;a:1:{s:5:"cdata";s:5:"
+    ";}i:111;a:1:{s:5:"cdata";s:7:"
+      ";}i:112;a:1:{s:5:"cdata";s:7:"
+      ";}i:113;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:114;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:115;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:116;a:1:{s:5:"cdata";s:8:"
+  
+    ";}i:117;a:1:{s:5:"cdata";s:7:"
+      ";}i:118;a:1:{s:5:"cdata";s:7:"
+      ";}i:119;a:1:{s:5:"cdata";s:16:"
+      
+        ";}i:120;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:121;a:1:{s:5:"cdata";s:7:"
+      ";}i:122;a:1:{s:5:"cdata";s:1:"
+";}i:123;a:1:{s:5:"cdata";s:5:"
+    ";}i:124;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:125;a:1:{s:5:"cdata";s:5:"
+    ";}i:126;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:127;a:1:{s:5:"cdata";s:5:"
+    ";}i:128;a:1:{s:5:"cdata";s:12:"
+    
+      ";}i:129;a:1:{s:5:"cdata";s:3:"
+  ";}i:130;a:1:{s:5:"cdata";s:5:"
+    ";}}s:12:"complexTypes";a:0:{}s:8:"messages";a:14:{s:19:"RunVRSCommandSoapIn";a:1:{s:3:"msg";s:24:"http://videcom.com/:msg^";}s:20:"RunVRSCommandSoapOut";a:1:{s:19:"RunVRSCommandResult";s:40:"http://videcom.com/:RunVRSCommandResult^";}s:20:"PostVRSCommandSoapIn";a:2:{s:7:"Command";s:28:"http://videcom.com/:Command^";s:5:"Token";s:26:"http://videcom.com/:Token^";}s:21:"PostVRSCommandSoapOut";a:1:{s:20:"PostVRSCommandResult";s:41:"http://videcom.com/:PostVRSCommandResult^";}s:18:"PostApisDataSoapIn";a:0:{}s:19:"PostApisDataSoapOut";a:1:{s:18:"PostApisDataResult";s:39:"http://videcom.com/:PostApisDataResult^";}s:23:"PostVRSCommandHttpGetIn";a:2:{s:7:"Command";s:39:"http://www.w3.org/2001/XMLSchema:string";s:5:"Token";s:39:"http://www.w3.org/2001/XMLSchema:string";}s:24:"PostVRSCommandHttpGetOut";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}s:21:"PostApisDataHttpGetIn";a:0:{}s:22:"PostApisDataHttpGetOut";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}s:24:"PostVRSCommandHttpPostIn";a:2:{s:7:"Command";s:39:"http://www.w3.org/2001/XMLSchema:string";s:5:"Token";s:39:"http://www.w3.org/2001/XMLSchema:string";}s:25:"PostVRSCommandHttpPostOut";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}s:22:"PostApisDataHttpPostIn";a:0:{}s:23:"PostApisDataHttpPostOut";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}}s:14:"currentMessage";s:23:"PostApisDataHttpPostOut";s:16:"currentOperation";s:12:"PostApisData";s:9:"portTypes";a:3:{s:21:"VrsXmlWebService3Soap";a:3:{s:13:"RunVRSCommand";a:2:{s:5:"input";a:1:{s:7:"message";s:19:"RunVRSCommandSoapIn";}s:6:"output";a:1:{s:7:"message";s:20:"RunVRSCommandSoapOut";}}s:14:"PostVRSCommand";a:2:{s:5:"input";a:1:{s:7:"message";s:20:"PostVRSCommandSoapIn";}s:6:"output";a:1:{s:7:"message";s:21:"PostVRSCommandSoapOut";}}s:12:"PostApisData";a:3:{s:5:"input";a:1:{s:7:"message";s:18:"PostApisDataSoapIn";}s:6:"output";a:1:{s:7:"message";s:19:"PostApisDataSoapOut";}s:8:"portType";a:1:{s:7:"message";s:0:"";}}}s:24:"VrsXmlWebService3HttpGet";a:2:{s:14:"PostVRSCommand";a:2:{s:5:"input";a:1:{s:7:"message";s:23:"PostVRSCommandHttpGetIn";}s:6:"output";a:1:{s:7:"message";s:24:"PostVRSCommandHttpGetOut";}}s:12:"PostApisData";a:3:{s:5:"input";a:1:{s:7:"message";s:21:"PostApisDataHttpGetIn";}s:6:"output";a:1:{s:7:"message";s:22:"PostApisDataHttpGetOut";}s:8:"portType";a:1:{s:7:"message";s:0:"";}}}s:25:"VrsXmlWebService3HttpPost";a:2:{s:14:"PostVRSCommand";a:2:{s:5:"input";a:1:{s:7:"message";s:24:"PostVRSCommandHttpPostIn";}s:6:"output";a:1:{s:7:"message";s:25:"PostVRSCommandHttpPostOut";}}s:12:"PostApisData";a:3:{s:5:"input";a:1:{s:7:"message";s:22:"PostApisDataHttpPostIn";}s:6:"output";a:1:{s:7:"message";s:23:"PostApisDataHttpPostOut";}s:7:"binding";a:1:{s:7:"message";s:0:"";}}}}s:15:"currentPortType";s:25:"VrsXmlWebService3HttpPost";s:8:"bindings";a:4:{s:21:"VrsXmlWebService3Soap";a:7:{s:8:"portType";s:21:"VrsXmlWebService3Soap";s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:10:"operations";a:3:{s:13:"RunVRSCommand";a:9:{s:4:"name";s:13:"RunVRSCommand";s:7:"binding";s:21:"VrsXmlWebService3Soap";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:32:"http://videcom.com/RunVRSCommand";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:19:"RunVRSCommandSoapIn";s:5:"parts";a:1:{s:3:"msg";s:24:"http://videcom.com/:msg^";}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:20:"RunVRSCommandSoapOut";s:5:"parts";a:1:{s:19:"RunVRSCommandResult";s:40:"http://videcom.com/:RunVRSCommandResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}s:14:"PostVRSCommand";a:9:{s:4:"name";s:14:"PostVRSCommand";s:7:"binding";s:21:"VrsXmlWebService3Soap";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:33:"http://videcom.com/PostVRSCommand";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:20:"PostVRSCommandSoapIn";s:5:"parts";a:2:{s:7:"Command";s:28:"http://videcom.com/:Command^";s:5:"Token";s:26:"http://videcom.com/:Token^";}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:21:"PostVRSCommandSoapOut";s:5:"parts";a:1:{s:20:"PostVRSCommandResult";s:41:"http://videcom.com/:PostVRSCommandResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}s:12:"PostApisData";a:9:{s:4:"name";s:12:"PostApisData";s:7:"binding";s:21:"VrsXmlWebService3Soap";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:31:"http://videcom.com/PostApisData";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:18:"PostApisDataSoapIn";s:5:"parts";a:0:{}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:19:"PostApisDataSoapOut";s:5:"parts";a:1:{s:18:"PostApisDataResult";s:39:"http://videcom.com/:PostApisDataResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}}s:4:"name";s:23:"VrsXmlWebService3Soap12";s:4:"type";s:41:"http://videcom.com/:VrsXmlWebService3Soap";s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";}s:23:"VrsXmlWebService3Soap12";a:7:{s:8:"portType";s:21:"VrsXmlWebService3Soap";s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:10:"operations";a:3:{s:13:"RunVRSCommand";a:9:{s:4:"name";s:13:"RunVRSCommand";s:7:"binding";s:23:"VrsXmlWebService3Soap12";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:32:"http://videcom.com/RunVRSCommand";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:19:"RunVRSCommandSoapIn";s:5:"parts";a:1:{s:3:"msg";s:24:"http://videcom.com/:msg^";}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:20:"RunVRSCommandSoapOut";s:5:"parts";a:1:{s:19:"RunVRSCommandResult";s:40:"http://videcom.com/:RunVRSCommandResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}s:14:"PostVRSCommand";a:9:{s:4:"name";s:14:"PostVRSCommand";s:7:"binding";s:23:"VrsXmlWebService3Soap12";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:33:"http://videcom.com/PostVRSCommand";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:20:"PostVRSCommandSoapIn";s:5:"parts";a:2:{s:7:"Command";s:28:"http://videcom.com/:Command^";s:5:"Token";s:26:"http://videcom.com/:Token^";}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:21:"PostVRSCommandSoapOut";s:5:"parts";a:1:{s:20:"PostVRSCommandResult";s:41:"http://videcom.com/:PostVRSCommandResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}s:12:"PostApisData";a:9:{s:4:"name";s:12:"PostApisData";s:7:"binding";s:23:"VrsXmlWebService3Soap12";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:10:"soapAction";s:31:"http://videcom.com/PostApisData";s:5:"style";s:8:"document";s:5:"input";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:18:"PostApisDataSoapIn";s:5:"parts";a:0:{}}s:6:"output";a:3:{s:3:"use";s:7:"literal";s:7:"message";s:19:"PostApisDataSoapOut";s:5:"parts";a:1:{s:18:"PostApisDataResult";s:39:"http://videcom.com/:PostApisDataResult^";}}s:9:"transport";s:36:"http://schemas.xmlsoap.org/soap/http";s:13:"documentation";s:0:"";}}s:4:"name";s:24:"VrsXmlWebService3HttpGet";s:4:"type";s:44:"http://videcom.com/:VrsXmlWebService3HttpGet";s:11:"bindingType";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";}s:24:"VrsXmlWebService3HttpGet";a:7:{s:8:"portType";s:24:"VrsXmlWebService3HttpGet";s:4:"verb";s:3:"GET";s:10:"operations";a:2:{s:14:"PostVRSCommand";a:7:{s:4:"name";s:14:"PostVRSCommand";s:7:"binding";s:24:"VrsXmlWebService3HttpGet";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:5:"input";a:2:{s:7:"message";s:23:"PostVRSCommandHttpGetIn";s:5:"parts";a:2:{s:7:"Command";s:39:"http://www.w3.org/2001/XMLSchema:string";s:5:"Token";s:39:"http://www.w3.org/2001/XMLSchema:string";}}s:6:"output";a:2:{s:7:"message";s:24:"PostVRSCommandHttpGetOut";s:5:"parts";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}}s:9:"transport";s:0:"";s:13:"documentation";s:0:"";}s:12:"PostApisData";a:7:{s:4:"name";s:12:"PostApisData";s:7:"binding";s:24:"VrsXmlWebService3HttpGet";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:5:"input";a:2:{s:7:"message";s:21:"PostApisDataHttpGetIn";s:5:"parts";a:0:{}}s:6:"output";a:2:{s:7:"message";s:22:"PostApisDataHttpGetOut";s:5:"parts";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}}s:9:"transport";s:0:"";s:13:"documentation";s:0:"";}}s:4:"name";s:25:"VrsXmlWebService3HttpPost";s:4:"type";s:45:"http://videcom.com/:VrsXmlWebService3HttpPost";s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";}s:25:"VrsXmlWebService3HttpPost";a:5:{s:8:"portType";s:25:"VrsXmlWebService3HttpPost";s:4:"verb";s:4:"POST";s:10:"operations";a:2:{s:14:"PostVRSCommand";a:7:{s:4:"name";s:14:"PostVRSCommand";s:7:"binding";s:25:"VrsXmlWebService3HttpPost";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:5:"input";a:2:{s:7:"message";s:24:"PostVRSCommandHttpPostIn";s:5:"parts";a:2:{s:7:"Command";s:39:"http://www.w3.org/2001/XMLSchema:string";s:5:"Token";s:39:"http://www.w3.org/2001/XMLSchema:string";}}s:6:"output";a:2:{s:7:"message";s:25:"PostVRSCommandHttpPostOut";s:5:"parts";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}}s:9:"transport";s:0:"";s:13:"documentation";s:0:"";}s:12:"PostApisData";a:7:{s:4:"name";s:12:"PostApisData";s:7:"binding";s:25:"VrsXmlWebService3HttpPost";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:5:"input";a:2:{s:7:"message";s:22:"PostApisDataHttpPostIn";s:5:"parts";a:0:{}}s:6:"output";a:2:{s:7:"message";s:23:"PostApisDataHttpPostOut";s:5:"parts";a:1:{s:4:"Body";s:27:"http://videcom.com/:string^";}}s:9:"transport";s:0:"";s:13:"documentation";s:0:"";}}s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:8:"endpoint";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";}}s:14:"currentBinding";s:25:"VrsXmlWebService3HttpPost";s:5:"ports";a:4:{s:21:"VrsXmlWebService3Soap";a:3:{s:7:"binding";s:21:"VrsXmlWebService3Soap";s:8:"location";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";}s:23:"VrsXmlWebService3Soap12";a:3:{s:7:"binding";s:23:"VrsXmlWebService3Soap12";s:8:"location";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:11:"bindingType";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";}s:24:"VrsXmlWebService3HttpGet";a:3:{s:7:"binding";s:24:"VrsXmlWebService3HttpGet";s:8:"location";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/http/";}s:25:"VrsXmlWebService3HttpPost";a:3:{s:7:"binding";s:25:"VrsXmlWebService3HttpPost";s:8:"location";s:73:"https://customer3.videcom.com/Medsky/VRSXMLService/VRSXMLWebservice3.asmx";s:11:"bindingType";s:37:"http://schemas.xmlsoap.org/wsdl/http/";}}s:11:"currentPort";s:25:"VrsXmlWebService3HttpPost";s:6:"opData";a:0:{}s:6:"status";s:7:"service";s:13:"documentation";b:0;s:8:"endpoint";s:0:"";s:6:"import";a:0:{}s:8:"position";i:131;s:5:"depth";i:-1;s:11:"depth_array";a:4:{i:0;i:122;i:1;i:129;i:2;i:130;i:3;i:121;}s:9:"proxyhost";b:0;s:9:"proxyport";b:0;s:13:"proxyusername";b:0;s:13:"proxypassword";b:0;s:7:"timeout";i:0;s:16:"response_timeout";i:30;s:12:"curl_options";a:0:{}s:8:"use_curl";b:0;s:8:"username";s:0:"";s:8:"password";s:0:"";s:8:"authtype";s:0:"";s:11:"certRequest";a:0:{}s:20:"currentPortOperation";s:12:"PostApisData";s:8:"opStatus";s:6:"output";s:11:"serviceName";s:17:"VrsXmlWebService3";s:9:"wsdl_info";a:10:{s:7:"xmlns:s";s:32:"http://www.w3.org/2001/XMLSchema";s:12:"xmlns:soap12";s:39:"http://schemas.xmlsoap.org/wsdl/soap12/";s:10:"xmlns:http";s:37:"http://schemas.xmlsoap.org/wsdl/http/";s:10:"xmlns:mime";s:37:"http://schemas.xmlsoap.org/wsdl/mime/";s:9:"xmlns:tns";s:19:"http://videcom.com/";s:10:"xmlns:soap";s:37:"http://schemas.xmlsoap.org/wsdl/soap/";s:8:"xmlns:tm";s:44:"http://microsoft.com/wsdl/mime/textMatching/";s:13:"xmlns:soapenc";s:41:"http://schemas.xmlsoap.org/soap/encoding/";s:15:"targetNamespace";s:19:"http://videcom.com/";s:10:"xmlns:wsdl";s:32:"http://schemas.xmlsoap.org/wsdl/";}}

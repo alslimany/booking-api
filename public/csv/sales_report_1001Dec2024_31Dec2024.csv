@@ -1,0 +1,5 @@
+                                           Passenger Name,PNR,Route,Class,Ticket#,Date of Issue Local,Flt#,Flight Date,Status,Face-Value,A6,CM,GX,RK,RL,YQ,YR,Total Tax,Comm. Paid,Comm.,Net Fare,W/Tax,Agent ID,Manual TKT No,Running Credit Value (LYD)
+Currency LYD,,,,,,,,,,,,,,,,,,,,,,,,,,
+ABDULLAH/ABDULLAHMR,ABDXCP,TUN-BEN,Y,215 2301345416/1,19/12/2024 11:23:45,NB0102,04/01/2025,ETKT,437.45,62.42,227.52,54,8.41,57.74,135,67.5,612.59,0,43.75,1006.29,0,3667BN,,7543.96,
+ABDULLAH/ABDULLAHMR,ABDXCP,TUN-BEN,Y,215 2301345416/1,19/12/2024 11:27:30,NB0102,04/01/2025,VOID,-437.45,-62.42,-227.52,-54,-8.41,-57.74,-135,-67.5,-612.59,0,-43.75,-1006.29,0,3667BN,,8550.25,
+TOTALS for LYD,,,,,,,,,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,,,,,,Refund Total,1006.29,,,,

@@ -1,0 +1,15 @@
+# FLIGHT-SEARCH
+
+A08FEBJEDLAQ[salesCity=JED,VARS=True,ClassBands=True,StartCity=JED,SingleSeg=s,FGNoAv=True,qtyseats=1,journey=JED-LAQ]
+
+
+# BOOKING-QUOTE
+"i^-1Pax\/A#^0YI0590L23FEBMJIHBEQQ1^0YI0591Y01MARHBEMJIQQ1^FG^FS1^*r~x"
+
+# BOOKING-ORDER
+"-elagerban\/malakMrs^9-1M*+218918808616^9-1E*mk.alagel@gmail.com^0YI0591Y01MARHBEMJINN1^FG^FS1^E*R~x"
+
+"-Alkharam\/AhmedMr^9-1M*+218944136070^9-1E*a.alkharam@oya.aero^0YI0573Y07FEBSHJMJINN1^FG^FS1^E*R~x
+
+# BOOKING-DETAILS
+"*AADV4R~x"

@@ -1,0 +1,57 @@
+O:4:"wsdl":53:{s:5:"title";s:6:"NuSOAP";s:7:"version";s:6:"0.9.17";s:8:"revision";s:18:"$Revision: 1.123 $";s:9:"error_str";s:189:"Getting https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL - HTTP ERROR: Unsupported HTTP response status 404  (soapclient->response has contents of the response)";s:9:"debug_str";s:4180:"2025-04-13 10:08:01.127693 wsdl: ctor wsdl=https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL timeout=0 response_timeout=30
+2025-04-13 10:08:01.127734 wsdl: parse and process WSDL path=https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2025-04-13 10:08:01.127759 wsdl: parse WSDL at path=https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2025-04-13 10:08:01.127783 wsdl: getting WSDL http(s) URL https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL
+2025-04-13 10:08:01.127797 soap_transport_http: ctor url=https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL use_curl= curl_options:
+array(0) {
+}
+2025-04-13 10:08:01.127823 soap_transport_http: parsed URL scheme = https
+2025-04-13 10:08:01.127836 soap_transport_http: parsed URL host = customer3.videcom.com
+2025-04-13 10:08:01.127847 soap_transport_http: parsed URL path = /buraq/VRSXMLService/VRSXMLWebservice3.asmx
+2025-04-13 10:08:01.127857 soap_transport_http: parsed URL query = WSDL
+2025-04-13 10:08:01.127873 soap_transport_http: set header Host: customer3.videcom.com
+2025-04-13 10:08:01.127967 soap_transport_http: set header User-Agent: NuSOAP/0.9.17 (1.123)
+2025-04-13 10:08:01.127988 soap_transport_http: set header Accept-Encoding: gzip, deflate
+2025-04-13 10:08:01.128001 soap_transport_http: set header Connection: close
+2025-04-13 10:08:01.128013 soap_transport_http: entered send() with data of length: 0
+2025-04-13 10:08:01.128040 soap_transport_http: connect connection_timeout 0, response_timeout 30, scheme https, host customer3.videcom.com, port 443
+2025-04-13 10:08:01.128059 soap_transport_http: connect using cURL
+2025-04-13 10:08:01.128418 soap_transport_http: setCurlOption option=10002, value=
+string(81) "https://customer3.videcom.com:443/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL"
+2025-04-13 10:08:01.128449 soap_transport_http: setCurlOption option=52, value=
+int(1)
+2025-04-13 10:08:01.128466 soap_transport_http: setCurlOption option=42, value=
+int(1)
+2025-04-13 10:08:01.128482 soap_transport_http: setCurlOption option=19913, value=
+int(1)
+2025-04-13 10:08:01.128496 soap_transport_http: setCurlOption option=13, value=
+int(30)
+2025-04-13 10:08:01.128511 soap_transport_http: set cURL SSL verify options
+2025-04-13 10:08:01.128521 soap_transport_http: setCurlOption option=64, value=
+int(0)
+2025-04-13 10:08:01.128535 soap_transport_http: setCurlOption option=81, value=
+int(0)
+2025-04-13 10:08:01.128550 soap_transport_http: cURL connection set up
+2025-04-13 10:08:01.128565 soap_transport_http: HTTP request: GET /buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL HTTP/1.1
+2025-04-13 10:08:01.128579 soap_transport_http: HTTP header: Host: customer3.videcom.com
+2025-04-13 10:08:01.128590 soap_transport_http: HTTP header: User-Agent: NuSOAP/0.9.17 (1.123)
+2025-04-13 10:08:01.128601 soap_transport_http: HTTP header: Accept-Encoding: gzip, deflate
+2025-04-13 10:08:01.128611 soap_transport_http: HTTP header: Connection: close
+2025-04-13 10:08:01.128625 soap_transport_http: Skip cURL header Host: customer3.videcom.com
+2025-04-13 10:08:01.128638 soap_transport_http: Skip cURL header Connection: close
+2025-04-13 10:08:01.128649 soap_transport_http: setCurlOption option=10023, value=
+array(2) {
+  [0]=>
+  string(33) "User-Agent: NuSOAP/0.9.17 (1.123)"
+  [1]=>
+  string(30) "Accept-Encoding: gzip, deflate"
+}
+2025-04-13 10:08:01.128668 soap_transport_http: set cURL HTTP headers
+2025-04-13 10:08:01.128680 soap_transport_http: set cURL payload
+2025-04-13 10:08:01.128704 soap_transport_http: send and receive with cURL
+2025-04-13 10:08:01.668421 soap_transport_http: No cURL error, closing cURL
+2025-04-13 10:08:01.668546 soap_transport_http: found proper separation of headers and document
+2025-04-13 10:08:01.668563 soap_transport_http: cleaned data, stringlen: 1953
+2025-04-13 10:08:01.668622 soap_transport_http: end of send()
+2025-04-13 10:08:01.668653 wsdl: Getting https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL - HTTP ERROR: Unsupported HTTP response status 404  (soapclient->response has contents of the response)
+";s:12:"charencoding";b:1;s:10:"debugLevel";i:9;s:16:"XMLSchemaVersion";s:32:"http://www.w3.org/2001/XMLSchema";s:16:"soap_defencoding";s:10:"ISO-8859-1";s:10:"namespaces";a:4:{s:8:"SOAP-ENV";s:41:"http://schemas.xmlsoap.org/soap/envelope/";s:3:"xsd";s:32:"http://www.w3.org/2001/XMLSchema";s:3:"xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:8:"SOAP-ENC";s:41:"http://schemas.xmlsoap.org/soap/encoding/";}s:14:"usedNamespaces";a:0:{}s:7:"typemap";a:6:{s:32:"http://www.w3.org/2001/XMLSchema";a:43:{s:6:"string";s:6:"string";s:7:"boolean";s:7:"boolean";s:5:"float";s:6:"double";s:6:"double";s:6:"double";s:7:"decimal";s:6:"double";s:8:"duration";s:0:"";s:8:"dateTime";s:6:"string";s:4:"time";s:6:"string";s:4:"date";s:6:"string";s:10:"gYearMonth";s:0:"";s:5:"gYear";s:0:"";s:9:"gMonthDay";s:0:"";s:4:"gDay";s:0:"";s:6:"gMonth";s:0:"";s:9:"hexBinary";s:6:"string";s:12:"base64Binary";s:6:"string";s:7:"anyType";s:6:"string";s:13:"anySimpleType";s:6:"string";s:16:"normalizedString";s:6:"string";s:5:"token";s:6:"string";s:8:"language";s:0:"";s:7:"NMTOKEN";s:0:"";s:8:"NMTOKENS";s:0:"";s:4:"Name";s:0:"";s:6:"NCName";s:0:"";s:2:"ID";s:0:"";s:5:"IDREF";s:0:"";s:6:"IDREFS";s:0:"";s:6:"ENTITY";s:0:"";s:8:"ENTITIES";s:0:"";s:7:"integer";s:7:"integer";s:18:"nonPositiveInteger";s:7:"integer";s:15:"negativeInteger";s:7:"integer";s:4:"long";s:7:"integer";s:3:"int";s:7:"integer";s:5:"short";s:7:"integer";s:4:"byte";s:7:"integer";s:18:"nonNegativeInteger";s:7:"integer";s:12:"unsignedLong";s:0:"";s:11:"unsignedInt";s:0:"";s:13:"unsignedShort";s:0:"";s:12:"unsignedByte";s:0:"";s:15:"positiveInteger";s:0:"";}s:35:"http://www.w3.org/2000/10/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:32:"http://www.w3.org/1999/XMLSchema";a:11:{s:2:"i4";s:0:"";s:3:"int";s:7:"integer";s:7:"boolean";s:7:"boolean";s:6:"string";s:6:"string";s:6:"double";s:6:"double";s:5:"float";s:6:"double";s:8:"dateTime";s:6:"string";s:11:"timeInstant";s:6:"string";s:12:"base64Binary";s:6:"string";s:6:"base64";s:6:"string";s:7:"ur-type";s:5:"array";}s:26:"http://soapinterop.org/xsd";a:1:{s:10:"SOAPStruct";s:6:"struct";}s:41:"http://schemas.xmlsoap.org/soap/encoding/";a:3:{s:6:"base64";s:6:"string";s:5:"array";s:5:"array";s:5:"Array";s:5:"array";}s:30:"http://xml.apache.org/xml-soap";a:1:{i:0;s:3:"Map";}}s:11:"xmlEntities";a:5:{s:4:"quot";s:1:""";s:3:"amp";s:1:"&";s:2:"lt";s:1:"<";s:2:"gt";s:1:">";s:4:"apos";s:1:"'";}s:11:"contentType";s:8:"text/xml";s:4:"wsdl";s:77:"https://customer3.videcom.com/buraq/VRSXMLService/VRSXMLWebservice3.asmx?WSDL";s:7:"schemas";a:0:{}s:13:"currentSchema";N;s:7:"message";a:0:{}s:12:"complexTypes";a:0:{}s:8:"messages";a:0:{}s:14:"currentMessage";N;s:16:"currentOperation";N;s:9:"portTypes";a:0:{}s:15:"currentPortType";N;s:8:"bindings";a:0:{}s:14:"currentBinding";N;s:5:"ports";a:0:{}s:11:"currentPort";N;s:6:"opData";a:0:{}s:6:"status";s:0:"";s:13:"documentation";b:0;s:8:"endpoint";s:0:"";s:6:"import";a:0:{}s:6:"parser";N;s:8:"position";i:0;s:5:"depth";i:0;s:11:"depth_array";a:0:{}s:9:"proxyhost";b:0;s:9:"proxyport";b:0;s:13:"proxyusername";b:0;s:13:"proxypassword";b:0;s:7:"timeout";i:0;s:16:"response_timeout";i:30;s:12:"curl_options";a:0:{}s:8:"use_curl";b:0;s:8:"username";s:0:"";s:8:"password";s:0:"";s:8:"authtype";s:0:"";s:11:"certRequest";a:0:{}s:20:"currentPortOperation";N;s:8:"opStatus";N;s:11:"serviceName";N;s:9:"wsdl_info";N;}

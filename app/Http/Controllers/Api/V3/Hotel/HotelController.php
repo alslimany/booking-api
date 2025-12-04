@@ -66,7 +66,7 @@ class HotelController extends Controller
 
         $response = [
             'meta' => [
-                'count' => 0,
+                'count' => 1,
                 'status' => true,
                 'message' => 'OK',
             ],
@@ -75,8 +75,11 @@ class HotelController extends Controller
 
         $hotel_token = HotelToken::first();
         $batch = $hotel_token->build()->searchHotels($request->all());
-        return $batch;
-        array_push($response['data'], ...$batch['data']);
+        // return $batch;
+
+        // $response['meta']['count'] += count($batch['data']);
+        
+        array_push($response['data'], ...$batch['data']['hotels']);
 
         return response()->json($response, $response_code);
     }

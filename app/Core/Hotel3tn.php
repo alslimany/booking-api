@@ -102,7 +102,7 @@ class Hotel3tn implements IHotel
         // 2. Call the provider's API
         $response = $this->client->post("hotels-api?method=availability", $requestBody);
 
-        return $response->json();
+        // return $response->json();
         if ($response->json("error")) {
             return ['success' => false, 'status' => 400, 'data' => [], 'message' => $response->json('msg')];
         }
